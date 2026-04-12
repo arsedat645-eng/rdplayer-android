@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RD Player</string>
+
+    <!-- Setup screen -->
+    <string name="setup_title">Welcome to RD Player</string>
+    <string name="setup_subtitle">Connect to your media server</string>
+    <string name="setup_url_hint">Server URL (e.g. http://192.168.1.10:7070)</string>
+    <string name="setup_test">Test Connection</string>
+    <string name="setup_save">Save &amp; Continue</string>
+    <string name="setup_testing">Testing connection…</string>
+    <string name="setup_success">Connection successful!</string>
+    <string name="setup_failed">Connection failed</string>
+    <string name="setup_invalid_url">Please enter a valid URL</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_server_section">Server</string>
+    <string name="settings_server_url">Server URL</string>
+    <string name="settings_test_connection">Test Connection</string>
+    <string name="settings_data_section">Data &amp; Privacy</string>
+    <string name="settings_clear_cookies">Clear Cookies &amp; Session</string>
+    <string name="settings_clear_cache">Clear Cache</string>
+    <string name="settings_reset_app">Reset App</string>
+    <string name="settings_playback_section">Playback</string>
+    <string name="settings_player_mode">Preferred Player</string>
+    <string name="settings_player_mode_desc">Choose how media links should open</string>
+    <string name="settings_player_mode_internal">Internal Player</string>
+    <string name="settings_player_mode_internal_desc">Use the built-in player with gestures and resume support</string>
+    <string name="settings_player_mode_external">External Player</string>
+    <string name="settings_player_mode_external_desc">Always open media in VLC, MPV, MX Player, or another app</string>
+    <string name="settings_player_mode_ask">Ask Every Time</string>
+    <string name="settings_player_mode_ask_desc">Choose internal or external player whenever a media link opens</string>
+    <string name="settings_external_player">Open in External Player</string>
+    <string name="settings_external_player_desc">Open media links in external apps like VLC or MX Player</string>
+    <string name="settings_keep_screen_on">Keep Screen On</string>
+    <string name="settings_keep_screen_on_desc">Prevent screen from sleeping during playback</string>
+    <string name="settings_security_section">Security</string>
+    <string name="settings_biometric_lock">Biometric Lock</string>
+    <string name="settings_biometric_lock_desc">Require fingerprint or face to open the app</string>
+    <string name="settings_about_section">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_reset_confirm_title">Reset App?</string>
+    <string name="settings_reset_confirm_message">This will clear all data including server URL, cookies, cache, and settings. You will need to set up the app again.</string>
+    <string name="settings_reset_confirm">Reset</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="settings_cookies_cleared">Cookies cleared</string>
+    <string name="settings_cache_cleared">Cache cleared</string>
+
+    <!-- Error screen -->
+    <string name="error_title">Can\'t Connect</string>
+    <string name="error_description">Unable to reach your RD Player server. Please check your connection and server status.</string>
+    <string name="error_retry">Retry</string>
+    <string name="error_settings">Open Settings</string>
+    <string name="error_server">Server:</string>
+    <string name="error_no_server">No server configured</string>
+    <string name="error_network_dns">DNS lookup failed - server not found</string>
+    <string name="error_network_connect">Could not connect to server</string>
+    <string name="error_network_timeout">Connection timed out</string>
+    <string name="error_network_bad_url">Invalid server URL</string>
+    <string name="error_network_ssl">SSL/TLS connection failed</string>
+    <string name="error_network_auth">Authentication required</string>
+    <string name="error_network_proxy_auth">Proxy authentication required</string>
+    <string name="error_network_redirect_loop">Too many redirects</string>
+    <string name="error_network_too_many_requests">Too many requests</string>
+    <string name="error_network_generic">Connection error: %1$s</string>
+    <string name="error_unknown_reason">Unknown error</string>
+    <string name="error_http_401">Authentication required or session expired</string>
+    <string name="error_http_403">Access denied</string>
+    <string name="error_http_404">Page or media not found</string>
+    <string name="error_http_429">Too many requests</string>
+    <string name="error_http_5xx">Server error (%1$d)</string>
+    <string name="error_http_generic">Request failed (%1$d)</string>
+
+    <!-- Misc -->
+    <string name="download_started">Download started</string>
+    <string name="press_again_to_exit">Press back again to exit</string>
+    <string name="share_no_server">Please configure a server URL first</string>
+    <string name="player_resume_title">Continue watching?</string>
+    <string name="player_resume_message">Resume from %1$s or start from the beginning.</string>
+    <string name="player_resume_continue">Continue from %1$s</string>
+    <string name="player_resume_start_over">Start Over</string>
+    <string name="player_choice_title">Open Media With</string>
+    <string name="player_choice_message">Choose which player should handle this media link.</string>
+    <string name="player_choice_internal">Internal</string>
+    <string name="player_choice_external">External</string>
+    <string name="player_choice_cancel">Cancel</string>
+
+    <!-- Shortcuts -->
+    <string name="shortcut_home">Home</string>
+    <string name="shortcut_home_long">Go to Home</string>
+    <string name="shortcut_discover">Discover</string>
+    <string name="shortcut_discover_long">Browse Discover</string>
+    <string name="shortcut_add">Add</string>
+    <string name="shortcut_add_long">Add Content</string>
+</resources>
